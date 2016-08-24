@@ -1,0 +1,46 @@
+.airplane       {  
+        transition: -webkit-transform .25s;
+        transform-origin: 90% 90%;
+}
+
+svg#all:hover .airplane  {    
+        transform: rotate(15deg) translate(-15px,10px)
+        
+}
+
+.rays       {  
+        transition: -webkit-transform .25s;
+        transform-origin: 50% 50%;
+}
+
+svg#all:hover .rays  {    
+        transform: scale(1.1)
+        
+}
+
+.clouds       {  
+        transition: -webkit-transform .25s;
+        transform-origin: 90% 90%;
+}
+
+svg#all:hover .clouds  {    
+        transform: translate(-5px,10px);
+}
+
+.mask       {  
+        transition: -webkit-transform .25s;
+}
+
+svg#all:hover .mask  {    
+        transform: translate(5px,-10px);
+}
+
+.mask2       {  
+        transition: -webkit-transform .25s;
+}
+
+svg#all:hover .mask2  {    
+        transform: translate(0px,0px);
+}
+
+
